@@ -1,0 +1,17 @@
+{
+  "name": "Custom env variables",
+  "description": "get custom variable for magento",
+  "authors" : [
+    {
+      "name": "Afroze Shaik"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "MagentoEnv\\": "src/"
+    }
+  }
+}
