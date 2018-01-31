@@ -2,9 +2,6 @@ Configuration Environment Variables
 ===
 
 Installation
-
-* Add below line in your composer json
-```"ahmed-oz/ConfigEnv": "*"```
 * Add below block in your repositories section
 ```
 {
@@ -12,6 +9,13 @@ Installation
     "url":"https://github.com/ahmed-oz/ConfigEnv.git"
 }
 ```
+* Add below line in your composer json
+```"ahmed-oz/config-env": "*"```
+* Or simple run below command
+```composer require ahmed-oz/config-env```
+
+* Run ```composer update```
+* You might be asked to create github token, create one and update on terminal where it asks
 
 This should be used as composer packages, and its implemented project should have a php file  ```etc/ConfigEnv.php``` in its root directory with below array format
 
