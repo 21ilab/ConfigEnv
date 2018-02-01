@@ -5,7 +5,7 @@
  * Time: 5:10 PM
  */
 
-namespace ConfigEnv\Entity;
+namespace MagentoEnv\Entity;
 
 
 class ConfigEnv
@@ -16,7 +16,7 @@ class ConfigEnv
     {
         $file = __DIR__.'/../../../app/etc/ConfigEnv.php';
 
-        $this->config = (file_exists($file)) ? require $file : [];
+        $this->config = (file_exists($file)) ? require $file : array();
     }
 
     public function getEnv($key) {
