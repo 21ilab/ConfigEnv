@@ -14,7 +14,7 @@ class ConfigEnv
 
     public function __construct()
     {
-        $file = __DIR__.'/../etc/ConfigEnv.php';
+        $file = __DIR__.'/../../../app/etc/ConfigEnv.php';
 
         $this->config = (file_exists($file)) ? require $file : [];
     }
